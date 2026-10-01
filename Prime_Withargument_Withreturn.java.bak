@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class  Prime_Withargument_Withreturn
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main start from here ");
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter your number :- ");
+		int x=sc.nextInt();
+		prime(x);
+	}
+	public static Integer prime(int num)
+	{
+		boolean flag=true;
+		for(int i=2;i<num;i++)
+		{
+			if(num%i==0)
+			{
+				flag=false;
+				break;
+			}
+		}
+		if(flag==true)
+		{
+			System.out.println("Given number "+num+" is prime");
+		}
+		else
+		{
+			System.out.println("Given number "+num+" is not prime");
+		}
+		return true+" "+false;
+	}
+}

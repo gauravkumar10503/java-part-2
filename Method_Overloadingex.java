@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class Method_Overloadingex 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter two number one by one :- ");
+		int x=sc.nextInt();
+		int y=sc.nextInt();
+		sum(x,y);
+		//add(x,y);
+	}
+
+	/*if we hava two or less than two method we can rename or change its datatype
+	but if we have more than two method than we have only one way to overcome 
+	from methode overloading and that is by changing the method name*/
+
+	public static void sum(int a,int b)
+	{
+		System.out.println("Sum is :- "+(a+b));
+	}
+
+	public static void add(int a,int b)
+	{
+		System.out.println("Sum is :- "+(a+b));
+	}
+
+	/*public static void sum(int a,int b)
+	{
+		System.out.println("Sum is :- "+(a+b));
+	}
+
+	public static void sum(int a,int b)
+	{
+		System.out.println("Sum is :- "+(a+b));
+	}*/
+}

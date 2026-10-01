@@ -1,0 +1,14 @@
+class  Sum_Without_Argument_Without_Return
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main start from here");
+		
+		add();
+	}
+	public static void add()
+	{
+		int i=10,j=10;
+		System.out.println("sum of number= "+(i+j));
+	}
+}

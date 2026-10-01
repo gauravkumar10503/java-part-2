@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Factorialwithargument_Withreturntype 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter your number :- ");
+		int x=sc.nextInt();
+		fact(x);
+	}
+	public static int fact(int a)
+	{
+		int factorial=1;
+		for(int i=1;i<=a;i++)
+		{
+			factorial=factorial*i;
+		}
+		System.out.println("The factorial of given number "+a+" is :- "+factorial);
+		return a;
+	}
+}

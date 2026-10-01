@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Method_Ex3
+{
+	public static void main(String[]args)
+	{
+		sum();
+		multi();
+	}
+	public static void sum()
+	{
+		System.out.println("a+b");
+	}
+	public static void sub()
+	{
+		multi();
+	}
+	public static void multi()
+	{
+		System.out.println("a*b");
+	}
+}

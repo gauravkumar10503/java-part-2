@@ -1,0 +1,18 @@
+class  Factorial_Method
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main start from here ");
+		factorial(5);
+	}
+
+	public static void factorial(int a)
+	{
+		int factorial=1;
+		for(int i=1;i<=a;i++)
+		{
+			factorial=factorial*i;
+		}
+		System.out.println("The factorial of given "+a+" is "+factorial);
+	}
+}
